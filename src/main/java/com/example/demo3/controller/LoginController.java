@@ -21,7 +21,7 @@ public class LoginController extends HttpServlet {
 
         req.getRequestDispatcher("/WEB-INF/login.jsp").forward(req,resp);
     }
-
+ 
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
